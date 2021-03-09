@@ -164,5 +164,9 @@ module.exports = {
   },
   // 非常有限的报错信息收集
   analytics: true,
+  gateway: {
+    auth: true,
+    accessToken: 'YOUR_PASSWORD',
+  },
 };
 
